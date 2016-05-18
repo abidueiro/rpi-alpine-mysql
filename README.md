@@ -3,7 +3,8 @@ Raspberry Pi Docker image with minimal GNU/Linux system with Mysql
 
 ### Create a Dockerfile
 
-```FROM hypriot/rpi-alpine-scratch
+```
+FROM hypriot/rpi-alpine-scratch
 
 RUN apk update
 RUN apk add mysql-client
